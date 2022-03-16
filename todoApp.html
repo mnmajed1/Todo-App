@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App For JavaScript</title>
+    <link rel="stylesheet" href="../CSS/todoApp.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1 id="mainTitle">My First Todo App</h1>
+
+        <table border="1px">
+          <div class="spanTitle"><span id="removeMsg"></span></div>
+
+          <thead id="tableTodoWraper">
+            <tr>
+              <th id="srlNumber">Serial Number</th>
+              <th>Title</th>
+              <th>Discription</th>
+              <th>Action Area</th>
+            </tr>
+          </thead>
+
+          <tbody id="addTodo"></tbody>
+
+          <tfoot>
+            <tr>
+              <td><input type="text" id="addTitle" placeholder="Add Your Title" /></td>
+              <td colspan="2"><input type="text" id="addDesc" placeholder="Discription Here" /></td>
+              <td>
+                <center>
+                  <button id="addBtn" class="btn btn-addBtn">Add</button>
+                </center>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div id="editForm">
+          <div class="titleEdit">
+            <input type="text" value="" id="editTitle" />
+            <input type="hidden" value="" id="arrayIndex" />
+            <button id="cancelBtn">Cancel</button>
+            <button id="updateBtn">Update</button>
+          </div>
+          <div class="msgEdit"><textarea name="" id="editDesc" cols="40" rows="5"></textarea></div>
+        </div>
+      </div>
+    </div>
+    <script src="../JavaScript/others.js"></script>
+  </body>
+</html>
+
+//* Happy Codding by //Md. Majed//16. 03. 2022 */

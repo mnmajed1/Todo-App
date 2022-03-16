@@ -1,0 +1,90 @@
+
+.container{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+}
+
+h1#mainTitle {
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tbody tr td {
+    padding: 10px 20px;
+}
+
+button.btn {
+    border: none;
+    background: #c418ff;
+    border-radius: 2px;
+    padding: 3px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+tfoot tr td input{
+    border-collapse: collapse;
+    border: none;
+    color: black;
+    padding-left: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.spanTitle {
+    margin: 5px 377px;
+    text-align: left;
+}
+
+span#removeMsg {
+    font-size: 18px;
+    color: #f81111;
+    font-family: ui-sans-serif;
+}
+
+div#editForm {
+    float: left;
+    padding-left: 320px;
+    display: none;
+}
+
+#cancelBtn { cursor: pointer;}
+#updateBtn{ cursor: pointer;}
+.titleEdit input {margin: 20px 0px 10px 0px;}
+
+.titleEdit button#cancelBtn {
+    margin: 20px 0px 10px 0px;
+    padding: 5px 8px;
+    color: #08060e;
+    border-radius: 3px;
+    border: 1px solid #000000ad;
+    background-color: #c390d4;
+}
+
+.titleEdit button#updateBtn {
+    margin: 20px 0px 10px 0px;
+    padding: 5px 8px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #000000ad;
+    background-color: #8b00e7;
+ }
+
+input#editTitle {
+    float: left;
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #000000ad;
+}
+
+textarea#editDesc {
+    outline: none;
+    border-radius: 3px;
+}
